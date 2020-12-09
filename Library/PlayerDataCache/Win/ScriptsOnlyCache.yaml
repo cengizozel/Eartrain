@@ -1,13 +1,17 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BackButton
     - MainMenu
     - PlayNote
     - SettingsMenuOpener
+    - VolumeHandler
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -28,9 +32,15 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.Dropdown
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   sceneClasses:
     Assets/Scenes/MainMenu.unity:
     - Class: 1
@@ -60,23 +70,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12364}
     - Class: 114
-      Script: {instanceID: 13024}
+      Script: {instanceID: 12810}
     - Class: 114
-      Script: {instanceID: 13376}
+      Script: {instanceID: 13026}
     - Class: 114
-      Script: {instanceID: 13396}
+      Script: {instanceID: 13378}
     - Class: 114
-      Script: {instanceID: 13708}
+      Script: {instanceID: 13398}
     - Class: 114
-      Script: {instanceID: 13812}
+      Script: {instanceID: 13710}
     - Class: 114
-      Script: {instanceID: 14106}
+      Script: {instanceID: 13814}
     - Class: 114
-      Script: {instanceID: 14280}
+      Script: {instanceID: 14110}
     - Class: 114
-      Script: {instanceID: 14336}
+      Script: {instanceID: 14284}
     - Class: 114
-      Script: {instanceID: 14452}
+      Script: {instanceID: 14340}
+    - Class: 114
+      Script: {instanceID: 14456}
+    - Class: 114
+      Script: {instanceID: 14498}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -92,6 +106,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     Assets/Scenes/Program.unity:
     - Class: 1
@@ -121,23 +141,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11582}
     - Class: 114
+      Script: {instanceID: 11586}
+    - Class: 114
       Script: {instanceID: 11638}
+    - Class: 114
+      Script: {instanceID: 12132}
     - Class: 114
       Script: {instanceID: 12302}
     - Class: 114
       Script: {instanceID: 12310}
     - Class: 114
-      Script: {instanceID: 13024}
+      Script: {instanceID: 12666}
     - Class: 114
-      Script: {instanceID: 13376}
+      Script: {instanceID: 13026}
     - Class: 114
-      Script: {instanceID: 13708}
+      Script: {instanceID: 13378}
     - Class: 114
-      Script: {instanceID: 13812}
+      Script: {instanceID: 13710}
     - Class: 114
-      Script: {instanceID: 14452}
+      Script: {instanceID: 13814}
     - Class: 114
-      Script: {instanceID: 15300}
+      Script: {instanceID: 14090}
+    - Class: 114
+      Script: {instanceID: 14424}
+    - Class: 114
+      Script: {instanceID: 14456}
+    - Class: 114
+      Script: {instanceID: 14476}
+    - Class: 114
+      Script: {instanceID: 15680}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -193,7 +225,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: 9f54e90afea28775ebea5ef289593867
+      Hash: 8e64e0343312a241b3abdfdc8cf6478c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SettingsMenuOpener
@@ -469,6 +501,12 @@ ScriptsOnlyBuild:
     className: VertexJitter
   - hash:
       serializedVersion: 2
+      Hash: d835e37be8caf473a0d64dc941f2a2a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VolumeHandler
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -719,6 +757,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BackButton
   - hash:
       serializedVersion: 2
       Hash: d791aa6007fa3640be1164ea75bb087d

@@ -14,7 +14,7 @@ A program where you can train to recognize notes, chords, intervals, and scales 
 < [Type] ><br />
 <br />
 // Selecting one checkbox, deselects all the others from the same layer (only for main layer)<br />
-Active Interval [note1] [note2] (ex. [C2] [C6]) // Will be dropdown, will check if it's possible (or automatically fixes it for you?)<br />
+Active Range [note1] [note2] (ex. [C2] [C6]) // Will be dropdown, will check if it's possible (or automatically fixes it for you?)<br />
 [x] Single Notes -> picked from piano (ex. C, F#)<br />
 	[x] Multiple choice<br />
 [x] Chords -> Input dropdown/Multiple choice (ex. Cmin7, Dadd9)<br />

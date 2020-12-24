@@ -1,5 +1,5 @@
 # Eartrain<br />
-A UI program where you can train to recognize notes, chords, intervals, and scales by ear.<br />
+A GUI program where you can train to recognize notes, chords, intervals, and scales by ear.<br />
 <br />
 <br />
 =======================UPDATE PLANS=======================<br />
